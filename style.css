@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container{
+    text-align: center;
+}
+
+.image-container img{
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px rgb(0,0,0,.3);
+    background-color: lightgray;
+    width: 300px;
+    height: 300px;
+}
+
+.btn{
+    background-color: slateblue;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:0 4px 8px rgb(0,0,0,.3);
+}
+
+.btn:hover{
+    background-color: darkblue;
+    opacity: 1;
+}
